@@ -16,3 +16,10 @@
 ### DNS 라우팅 과정 
 ![DNS 웹:앱 라우팅 과정.png](image%2FDNS%20%EC%9B%B9%3A%EC%95%B1%20%EB%9D%BC%EC%9A%B0%ED%8C%85%20%EA%B3%BC%EC%A0%95.png)
 
+### TCP(Transmission Control Protocol)
+- 정보 전달을 하기 위한 프로토콜
+- 웹 브라우저들이 www에서 서버에 연결(정보를 주고 받기 위해)할 때 사용
+- 인터넷, 인트라넷, 근거리 통신에 사용되는 컴퓨터에서 안정적이고, 순서대로 오류 없이 데이터를 주고 받을 수 있게 함
+
+### UDP(User Datagram Protocol)
+- 안정성이 낮고, 순서를 보장하지 않는 대신 오버헤드가 작고, 지연시간이 짧음

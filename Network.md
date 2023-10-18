@@ -23,3 +23,10 @@
 
 ### UDP(User Datagram Protocol)
 - 안정성이 낮고, 순서를 보장하지 않는 대신 오버헤드가 작고, 지연시간이 짧음
+
+### TCP 3 way handshake
+- SYN : 데이터 전송을 위해 서버로 요청
+- SYN - ACK : 서버가 요청이 가능한지 확인
+- ACK : 서버의 요청 사항을 수락하여 연결됨
+
+### TCP 4 way handshake

@@ -25,8 +25,14 @@
 - 안정성이 낮고, 순서를 보장하지 않는 대신 오버헤드가 작고, 지연시간이 짧음
 
 ### TCP 3 way handshake
+데이터 전송 단계에서 연결에 사용되는 방식이다.
+![3wayhandshake.png](image%2F3wayhandshake.png)
 - SYN : 데이터 전송을 위해 서버로 요청
 - SYN - ACK : 서버가 요청이 가능한지 확인
 - ACK : 서버의 요청 사항을 수락하여 연결됨
 
 ### TCP 4 way handshake
+데이터 연결이 종료된 상황에서 사용되는 방식이다.
+![4wayhandshake.png](image%2F4wayhandshake.png)
+- FIN : 연결이 되어 있는 상태에서 연결 종료 요청을 보내는 FLAG
+- ACK : 연결 종료 요청을 받고 응답을 전달하는 FLAG

@@ -23,5 +23,10 @@
 - key examined 값을 8000~9000을 넘어가면 100ms 이상 소요됨
   - 조건을 추가하여 8000아래로 떨어뜨리는 방식이 좋음
 
+## Bulk insert 방법
+- index는 write 성능 저하를 야기할 수 있기 때문에 많은 고려가 필요함
+- bulk insert가 필요할 경우 100번에 나눠서 요청을 하는 것보다 100개를 한 번에 요청하는 게 빠르다
+  - insertMany(), bulkWrite() 를 제공함
+
 ## Reference
 - https://tv.naver.com/v/11267386
